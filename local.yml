@@ -7,3 +7,6 @@
   - name: install htop
     package:
       name: htop
+  - name: install neofetch
+    package:
+      name: neofetch
