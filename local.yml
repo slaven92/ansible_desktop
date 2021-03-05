@@ -4,9 +4,9 @@
   become: true
 
   tasks:
-  - name: install htop
+  - name: install packages
     package:
-      name: htop
-  - name: install neofetch
-    package:
-      name: neofetch
+      name: 
+        - htop
+        - neofetch
+        - neovim
